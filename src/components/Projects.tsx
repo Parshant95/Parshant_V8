@@ -34,7 +34,6 @@ const projects = [
     description:
       "Responsive automotive showcase with Firebase real-time DB, Google Sign-In auth, and dynamic car model browsing.",
     tags: ["Firebase", "React", "Google Auth"],
-    link: "",
     repo: "https://github.com/Parshant95/Project-Cars",
     link: "https://project-ca-rs-pv-8-igin-git-main-parshant95s-projects.vercel.app/", // Placeholder repo
     cta: "Live Site",
