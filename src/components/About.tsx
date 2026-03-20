@@ -8,7 +8,7 @@ export function About() {
     { label: 'Projects Built', value: '10+' },
     { label: 'LeetCode Solved', value: '300+' },
     { label: 'Academic CGPA', value: '8.36' },
-    { label: 'Published Patent', value: '01' },
+    { label: 'Published Patents', value: '04' },
   ];
 
   return (
@@ -25,7 +25,7 @@ export function About() {
             I'm <span className="text-white font-medium">Parshant Vardhan</span>, a CSE student at Chandigarh University and <span className="text-white font-medium">Full Stack Developer Intern at RhythmiqCX</span>. I build AI-powered tools, full-stack web apps, and ship production products.
           </p>
           <p className="text-xl text-muted leading-relaxed">
-            I hold a published patent and have solved 300+ DSA problems on LeetCode. My passion lies in creating efficient, scalable, and user-friendly applications that solve real-world problems.
+            I hold 4 published patents and have solved 300+ DSA problems on LeetCode. My passion lies in creating efficient, scalable, and user-friendly applications that solve real-world problems.
           </p>
         </motion.div>
 

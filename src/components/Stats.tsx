@@ -32,9 +32,9 @@ const stats: Stat[] = [
     icon: <GraduationCap size={20} />,
   },
   {
-    value: "1",
-    label: "Patent",
-    descriptor: "App No: 202411070768 · Rare for a student",
+    value: "4",
+    label: "Patents",
+    descriptor: "Published · Rare for a student",
     icon: <ScrollText size={20} />,
     accent: true,
   },
