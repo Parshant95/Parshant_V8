@@ -29,6 +29,18 @@ export function Hero() {
       id="home"
       className="relative min-h-screen flex items-center justify-center pt-24 overflow-hidden"
     >
+      {/* Hero Background Image */}
+      <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden h-full">
+        <Image
+          src="/images/hero section image.png"
+          alt=""
+          fill
+          className="object-cover opacity-50"
+          priority
+        />
+        <div className="absolute inset-0 bg-black/60" />
+      </div>
+
       {/* Animated Background */}
       <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden h-full">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-white/5 rounded-full blur-[120px] animate-float opacity-50" />
