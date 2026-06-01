@@ -19,6 +19,19 @@ interface Project {
 }
 
 const projects: Project[] = [
+   {
+    title: "MotorIQ",
+    subtitle: "AI-Powered Car Buying Assistant",
+    description:
+      "Smart automotive app that helps users buy and sell cars with AI-driven insights, real-time market data, and a seamless mobile experience. Published on Google Play Store.",
+    tags: ["React Native", "AI", "Mobile", "Android"],
+    impact: "Live on Play Store",
+    impactStyle: "bg-orange-500/15 text-orange-400 border-orange-500/30",
+    link: "https://play.google.com/store/apps/details?id=com.rhythmiq.motoriq&hl=en_IN",
+    repo: "",
+    cta: "Play Store",
+    image: "/images/banner-1-feature-1024x500.png",
+  },
   {
     title: "V8 Designs",
     subtitle: "Free Wallpaper Platform",
@@ -45,6 +58,7 @@ const projects: Project[] = [
     cta: "GitHub",
     image: "/images/piescript.png",
   },
+
   {
     title: "Project Cars",
     subtitle: "Modern Car Showcase Platform",
@@ -108,7 +122,7 @@ export function Projects() {
                     src={project.image}
                     alt={project.title}
                     fill
-                    className="object-cover opacity-15 group-hover:opacity-35 transition-opacity duration-700"
+                    className="object-cover opacity-45 group-hover:opacity-70 transition-opacity duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d0d] via-[#0d0d0d]/85 to-[#0d0d0d]/60" />
                 </div>
