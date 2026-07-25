@@ -117,7 +117,7 @@ export function Hero() {
           {/* Primary — Resume */}
           <a
             href="/resume/Parshant_Vardhan_Resume.pdf"
-            target="_blank"
+            download="Parshant_Vardhan_Resume.pdf"
             className="group w-full sm:w-auto px-8 py-4 bg-white text-black font-bold uppercase tracking-widest text-sm hover:bg-white/90 transition-all active:scale-95 flex items-center justify-center gap-2 rounded-xl"
           >
             Download Resume <Download size={16} />
